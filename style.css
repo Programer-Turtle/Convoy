@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Share_Tech';
+    src: url('Fonts/Share_Tech/ShareTech-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(180, 184, 182);
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-family: "Share_Tech";
+    font-size: 45px;
+    color: rgb(63, 58, 58);
+}
+
+label{
+    font-family: "Share_Tech";
+    font-size: 30px;
+    text-align: center;
+    color: rgb(63, 58, 58);
+}
+
+input{
+    font-family: "Share_Tech";
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(182, 180, 180);
+    border-color: rgb(206, 209, 208);
+    border-width: 4px;
+    border-style: solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(63, 58, 58);
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(182, 180, 180);
+    border-color: rgb(206, 209, 208);
+    border-width: 4px;
+    border-style: solid;
+}
+
+p{
+    font-family: "Share_Tech";
+    font-size: 20px;
+    text-align: center;
+    color: rgb(63, 58, 58);
+}
